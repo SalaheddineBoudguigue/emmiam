@@ -2,12 +2,12 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
-  background-color: #bc77a7;
+  background-color: #e0a771;
   overflow-x: hidden;
 }
 
 .layout_padding {
-  padding: 90px 0;
+  padding: 40px 0;
 }
 
 .layout_padding2 {
@@ -50,7 +50,7 @@ body {
 }
 
 .heading_container h2 span {
-  color: #514bf7;
+  color: #ee9044;
 }
 
 .heading_container p {
@@ -127,7 +127,7 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background: linear-gradient(130deg, #231a6f, #0f054c);
+  background: linear-gradient(130deg, #FFFBFD, #e4c2da);
 }
 
 .sub_page .hero_area .hero_bg_box {
@@ -136,6 +136,7 @@ a:focus {
 
 .header_section {
   padding: 15px 0;
+  background-color: #e0a771;
 }
 
 .header_section .container-fluid {
@@ -145,15 +146,15 @@ a:focus {
 
 @font-face {
   font-family: myFirstFont;
-  src: url(/home/saladin/Desktop/finexo-html/fonts/PermanentMarker-Regular.ttf);
+  src: url(/media/saladin/huge.disque/finexo-html/fonts/Enthusiastic-OV148.ttf);
 }
 
 
 .navbar-brand span {
   font-family: myFirstFont;
   font-weight: bold;
-  font-size: 24px;
-  color: #ffffff;
+  font-size: 25px;
+  color: #0f0808;
   margin: 0 auto;
 }
 
@@ -173,7 +174,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
-  color: #ffffff;
+  color: #140909;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
@@ -217,7 +218,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #ffffff;
+  background-color: #000000;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -232,7 +233,7 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #000000;
   top: -10px;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
@@ -272,7 +273,19 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  padding: 45px 0 145px 0;
+  padding: 45px 0 45px 0;
+  background-image: linear-gradient(
+    115deg,
+    rgba(228, 209, 197, 0.829),
+    rgba(0, 0, 0, 0.425)
+    
+  ),
+  url(/media/saladin/huge.disque/finexo-html/images/background1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Set other styles for the body if needed */
+  margin: 0;
 }
 
 .slider_section .row {
@@ -287,7 +300,7 @@ a:focus {
 }
 
 .slider_section .detail-box {
-  color: #00204a;
+  color: #4a0000;
 }
 
 .slider_section .detail-box h1 {
@@ -295,11 +308,11 @@ a:focus {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: #ffffff;
+  color: #ee9044;
 }
 
 .slider_section .detail-box p {
-  color: #fefefe;
+  color: #08040f;
   font-size: 15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
@@ -322,8 +335,9 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #448de7;
-  color: #ffffff;
+  background-color: #ee9044;
+  color: #FFFBFD;
+  font-weight: bold;
   border-radius: 10px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -412,7 +426,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #514bf7;
+  background-color: #ee9044;
 }
 
 .service_section {
@@ -500,8 +514,8 @@ a:focus {
 }
 
 .about_section {
-  background: linear-gradient(180deg, #bc77a7 5%, #00204a);
-  color: #ffffff;
+  background: linear-gradient(180deg, #e0a771 2%, #FFFBFD);
+  color: #000000;
 }
 
 .about_section .heading_container {
@@ -529,8 +543,9 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #448de7;
-  color: #ffffff;
+  background-color: #ee9044;
+  color: #000000;
+  font-weight: bold;
   border-radius: 0px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -564,7 +579,7 @@ a:focus {
   min-width: 120px;
   min-height: 120px;
   border-radius: 100%;
-  border: 5px solid #00204a;
+  border: 5px solid #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -579,7 +594,7 @@ a:focus {
 .why_section .box .img-box img {
   width: 55px;
   height: auto;
-  fill: #00204a;
+  fill: #ffffff;
 }
 
 .why_section .box h5 {
@@ -619,8 +634,8 @@ a:focus {
 /*team section */
 .team_section {
   text-align: center;
-  background-color: #00204a;
-  color: #ffffff;
+  background-color: #FFFBFD;
+  color: #000000;
 }
 
 .team_section .heading_container {
@@ -640,8 +655,8 @@ a:focus {
   -webkit-transition: all .1s;
   transition: all .1s;
   margin-top: 45px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#002759), to(#002b64));
-  background: linear-gradient(to bottom, #002759, #002b64);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f0cf9d), to(#f0cf9d));
+  background: linear-gradient(to bottom, #f0cf9d, #f0cf9d);
 }
 
 .team_section .team_container .box .img-box {
@@ -668,7 +683,7 @@ a:focus {
 }
 
 .team_section .team_container .box .detail-box h5 {
-  color: #00bbf0;
+  color: #ee9044;
   font-weight: 600;
   position: relative;
 }
@@ -793,8 +808,8 @@ a:focus {
 
 /* client section end */
 .info_section {
-  background-color: #00204a;
-  color: #ffffff;
+  background-color: #e0a771;
+  color: #000000;
   padding: 45px 0 15px 0;
 }
 
@@ -819,7 +834,7 @@ a:focus {
 
 .info_section .info_contact .contact_link_box a {
   margin: 5px 0;
-  color: #ffffff;
+  color: #000000;
 }
 
 .info_section .info_contact .contact_link_box a i {
@@ -827,7 +842,7 @@ a:focus {
 }
 
 .info_section .info_contact .contact_link_box a:hover {
-  color: #00bbf0;
+  color: #ee9044;
 }
 
 .info_section .info_social {
@@ -848,14 +863,14 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #ffffff;
+  color: #000000;
   border-radius: 100%;
   margin-right: 10px;
   font-size: 24px;
 }
 
 .info_section .info_social a:hover {
-  color: #00bbf0;
+  color: #0e1a1d;
 }
 
 .info_section .info_links {
@@ -887,28 +902,28 @@ a:focus {
 
 .info_section form input {
   border: none;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #030202;
   background-color: transparent;
   width: 100%;
   height: 45px;
-  color: #ffffff;
+  color: #000000;
   outline: none;
 }
 
 .info_section form input::-webkit-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 
 .info_section form input:-ms-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 
 .info_section form input::-ms-input-placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 
 .info_section form input::placeholder {
-  color: #ffffff;
+  color: #000000;
 }
 
 .info_section form button {
@@ -916,8 +931,8 @@ a:focus {
   text-align: center;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #448de7;
-  color: #ffffff;
+  background-color: #ee9044;
+  color: #000000;
   border-radius: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -955,5 +970,12 @@ a:focus {
   font-size: 18.info_section form buttonpx;
   font-weight: 600;
 }
+
+.logo-emmiam{
+  width: 100px;
+  height: auto;
+}
+
+
 
 /*# sourceMappingURL=style.css.map */

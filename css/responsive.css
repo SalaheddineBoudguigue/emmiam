@@ -8,7 +8,7 @@
   }
 
   .hero_area {
-    background: linear-gradient(180deg, #00204a 10%, #bc77a7);
+    background-color: #FFFBFD;
   }
 
   .hero_area .hero_bg_box {
@@ -16,7 +16,7 @@
   }
 
   .slider_section {
-    padding: 45px 0 75px 0;
+    padding: 45px 0 40px 0;
   }
 
   .custom_nav-container .navbar-nav {
@@ -30,6 +30,26 @@
     margin: 5px 0;
   }
 
+
+}
+
+
+@media (min-width: 1600px) {
+  .about_section .img-box {
+    margin-bottom: 45px;
+  }
+
+  .row .detail-box h1{
+    font-size: 500%;
+  }
+  .row .detail-box p{
+    font-size: 150%;
+  }
+
+  .logo-emmiam{
+    width: 250px;
+    height: auto;
+  }
 
 }
 
