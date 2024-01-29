@@ -280,7 +280,7 @@ a:focus {
     rgba(0, 0, 0, 0.425)
     
   ),
-  url(https://img-3.journaldesfemmes.fr/6ThvZj9MUxZ0CBCysevrqg1mldg=/1500x/smart/a24c1f448ca8462ca16ad0a9444de4d3/ccmcms-jdf/14589840.jpg);
+  url(/media/saladin/huge.disque/finexo-html/images/background1.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -976,6 +976,95 @@ a:focus {
   height: auto;
 }
 
+div.product {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
 
+.dropdown-menu {
+  background-color: #ee9044;
+  width: 100%;
+}
 
+.recette-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product_images img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product_details {
+  flex-grow: 1;
+  padding: 0 20px;
+}
+
+.product_details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product_details p {
+  font-size: 16px;
+  color: #555;
+}
+
+.recette{
+  background-color: #faf1e6;
+}
+
+.text-decoration-line-through {
+  text-decoration: line-through !important;
+  color: rgb(245, 41, 41)
+}
+
+.bold{
+  font-weight: bold;
+}
+
+fieldset
+{
+  color: #000000;
+  outline: 2px solid #ee9044;
+  font-weight: bold;
+  margin: 5%;
+}
+fieldset label{
+  color: #000000;
+  font-weight: bold;
+}
+
+.last-fieldset{
+  outline: none;
+}
+
+input,
+textarea {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: auto;
+  height: 2.3em;
+  font-size: 1.5rem;
+  background-color: #ee9044;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="submit"]:hover{
+  background-color: rgba(240, 184, 81, 0.562);
+}
 /*# sourceMappingURL=style.css.map */
